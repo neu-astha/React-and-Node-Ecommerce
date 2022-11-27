@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Layout */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-color: #203040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  background-color: #203040;
+  color: #ffffff;
+}
+
+header a {
+  color: #ffffff;
+  padding: 1rem;
+}
+
+header a a {
+  font-size: 24px;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products .uk-card {
+  width: clamp(320px, 33%, 420px);
+  padding: 0 16px;
+}
+
+.products .uk-card .image {
+  height: 420px;
+}
+
+.products .uk-card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products .uk-card .uk-card-body .rating {
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products .uk-card .uk-card-body .rating i {
+  color: #f0c040;
+}
+/*# sourceMappingURL=style.css.map */
